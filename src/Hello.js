@@ -1,10 +1,10 @@
-import React from 'react';
+import React   from 'react';
 
-function Hello (){
+function Hello (props){
 	return (
-		<div>
+		<div className="f1 tc">
 		<h1> YO Wasup my nigga </h1>
-		<p> U STILL HERE LOL </p>
+		<p> {props.greeting} </p>
 		</div>
 		);
 }
